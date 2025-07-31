@@ -44,7 +44,9 @@ https://docs.voidlinux.org/xbps/index.html#updating
 
 https://docs.voidlinux.org/xbps/repositories/index.html#subrepositories
 
-`xbps-install xtools vim` Tools
+`xbps-install xtools xmirror vim` Tools
+
+`xmirror` Set mirror to CDN
 
 `xi -S linux-firmware-amd` Firmware 
 
