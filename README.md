@@ -1,4 +1,4 @@
-# Void Linux Install Gnome + Pipewire + Gaming
+# Void Linux Install Gnome + Pipewire + Gaming AMD CPU/GPU
 Guided install for my user preferences
 
 
@@ -114,7 +114,7 @@ less /usr/share/doc/steam/README.voidlinux
 
 https://github.com/UltraToon/void-guide?tab=readme-ov-file#desktop-guide-install-gui-terminal-and-browser
 
-## ESYNC (Alter murky for your user)
+## ESYNC
 
 `sudo echo 'murky hard nofile 524288' >> /etc/security/limits.conf`
 
