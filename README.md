@@ -36,21 +36,35 @@ https://docs.voidlinux.org/installation/guides/chroot.html#installing-on-removab
 https://docs.voidlinux.org/config/network/index.html#dhcpcd
 
 ## Initial Packages
-`xbps-install -Su` Update https://docs.voidlinux.org/xbps/index.html#updating
+`xbps-install -Su` Update 
 
-`xbps-install void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree` Repos https://docs.voidlinux.org/xbps/repositories/index.html#subrepositories
+https://docs.voidlinux.org/xbps/index.html#updating
+
+`xbps-install void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree` Repos
+
+https://docs.voidlinux.org/xbps/repositories/index.html#subrepositories
 
 `xbps-install xtools vim` Tools
 
-`xi -S linux-firmware-amd` Firmware https://docs.voidlinux.org/config/firmware.html#amd
+`xi -S linux-firmware-amd` Firmware 
 
-`xi -S mesa-dri mesa-dri-32bit vulkan-loader vulkan-loader-32bit mesa-vulkan-radeon mesa-vulkan-radeon-32bit amdvlk amdvlk-32bit xf86-video-amdgpu xf86-video-amdgpu-32bit mesa-vaapi mesa-vaapi-32bit mesa-vdpau mesa-vdpau-32bit` Graphical Drivers https://docs.voidlinux.org/config/graphical-session/graphics-drivers/amd.html
+https://docs.voidlinux.org/config/firmware.html#amd
 
-`ln -s /etc/sv/dbus /var/service/` D-Bus https://docs.voidlinux.org/config/session-management.html#d-bus
+`xi -S mesa-dri mesa-dri-32bit vulkan-loader vulkan-loader-32bit mesa-vulkan-radeon mesa-vulkan-radeon-32bit amdvlk amdvlk-32bit xf86-video-amdgpu xf86-video-amdgpu-32bit mesa-vaapi mesa-vaapi-32bit mesa-vdpau mesa-vdpau-32bit` Graphical Drivers 
 
-`xi -S elogind` elogind https://docs.voidlinux.org/config/session-management.html#elogind
+https://docs.voidlinux.org/config/graphical-session/graphics-drivers/amd.html
 
-`xi -S dejavu-fonts-ttf xorg-fonts noto-fonts-ttf noto-fonts-cjk noto-fonts-emoji nerd-fonts` Fonts https://docs.voidlinux.org/config/graphical-session/fonts.html
+`ln -s /etc/sv/dbus /var/service/` D-Bus 
+
+https://docs.voidlinux.org/config/session-management.html#d-bus
+
+`xi -S elogind` elogind 
+
+https://docs.voidlinux.org/config/session-management.html#elogind
+
+`xi -S dejavu-fonts-ttf xorg-fonts noto-fonts-ttf noto-fonts-cjk noto-fonts-emoji nerd-fonts` Fonts 
+
+https://docs.voidlinux.org/config/graphical-session/fonts.html
 
 ## Gnome
 
