@@ -25,6 +25,13 @@ https://docs.voidlinux.org/installation/guides/chroot.html#installing-on-removab
 
 # Post install
 
+## User
+
+https://docs.voidlinux.org/config/users-and-groups.html#sudo
+
+`useradd murky`
+`usermod -aG wheel,video,audio,murky murky`
+
 ## Internet
 
 `cp -R /etc/sv/dhcpcd-eth0 /etc/sv/dhcpcd-enp6s0` 
